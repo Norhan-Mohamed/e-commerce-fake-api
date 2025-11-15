@@ -1,3 +1,4 @@
+
 import 'package:e_commerce/data/cart_local.dart';
 import 'package:e_commerce/data/product_api.dart';
 import 'package:e_commerce/features/cart/cubit/cart_cubit.dart';
@@ -48,5 +49,4 @@ void main() {
         expect(find.text('Home'), findsOneWidget);
 
         expect(find.byType(NavigationBar), findsOneWidget);
-      });
-}
+      });}
